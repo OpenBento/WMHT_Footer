@@ -1,0 +1,92 @@
+{% load image_resize %}
+{% comment %}
+<!-- SmartSnippets Variables
+logo01=OptionalImageField
+logo01_url=TextField
+logo02=OptionalImageField
+logo02_url=TextField
+logo03=OptionalImageField
+logo03_url=TextField
+logo04=OptionalImageField
+logo04_url=TextField
+logo05=OptionalImageField
+logo05_url=TextField
+logo06=OptionalImageField
+logo06_url=TextField
+logo07=OptionalImageField
+logo07_url=TextField
+logo08=OptionalImageField
+logo08_url=TextField
+logo09=OptionalImageField
+logo09_url=TextField
+logo10=OptionalImageField
+logo10_url=TextField
+logo11=OptionalImageField
+logo11_url=TextField
+logo12=OptionalImageField
+logo12_url=TextField
+-->
+{% endcomment %}
+
+        <div class="funders clearfix">
+            {% if logo01 %}
+                <div class="funder-image">
+                    <a href="{{ logo01_url }}" target="_blank"><img src="{{ logo01|image_resize:"100x" }}" height="37"></a>
+                </div>
+            {% endif %}
+            {% if logo02 %}
+                <div class="funder-image">
+                    <a href="{{ logo02_url }}" target="_blank"><img src="{{ logo02|image_resize:"95x" }}" height="37"></a>
+                </div>
+            {% endif %}
+            {% if logo03 %}
+                <div class="funder-image">
+                    <a href="{{ logo03_url }}" target="_blank"><img src="{{ logo03|image_resize:"125x" }}" height="45"></a>
+                </div>
+            {% endif %}
+            {% if logo04 %}
+                <div class="funder-image">
+                    <a href="{{ logo04_url }}" target="_blank"><img src="{{ logo04|image_resize:"105x" }}" height="37"></a>
+                </div>
+            {% endif %}
+            {% if logo05 %}
+                <div class="funder-image">
+                    <a href="{{ logo05_url }}" target="_blank"><img src="{{ logo05|image_resize:"136x" }}" height="45"></a>
+                </div>
+            {% endif %}
+            {% if logo06 %}
+                <div class="funder-image">
+                    <a href="{{ logo06_url }}" target="_blank"><img src="{{ logo06|image_resize:"125x" }}" height="45"></a>
+                </div>
+            {% endif %}
+            {% if logo07 %}
+                <div class="funder-image">
+                    <a href="{{ logo07_url }}" target="_blank"><img src="{{ logo07|image_resize:"105x" }}" height="37"></a>
+                </div>
+            {% endif %}
+            {% if logo08 %}
+                <div class="funder-image">
+                    <a href="{{ logo08_url }}" target="_blank"><img src="{{ logo08|image_resize:"125x" }}" height="45"></a>
+                </div>
+            {% endif %}
+            {% if logo09 %}
+                <div class="funder-image">
+                    <a href="{{ logo09_url }}" target="_blank"><img src="{{ logo09|image_resize:"125x" }}" height="45"></a>
+                </div>
+            {% endif %}
+            {% if logo10 %}
+                <div class="funder-image">
+                    <a href="{{ logo10_url }}" target="_blank"><img src="{{ logo10|image_resize:"125x" }}" height="45"></a>
+                </div>
+            {% endif %}
+            {% if logo11 %}
+                <div class="funder-image">
+                    <a href="{{ logo11_url }}" target="_blank"><img src="{{ logo11|image_resize:"125x" }}" height="45"></a>
+                </div>
+            {% endif %}
+            {% if logo12 %}
+                <div class="funder-image">
+                    <a href="{{ logo12_url }}" target="_blank"><img src="{{ logo12|image_resize:"125x" }}" height="45"></a>
+                </div>
+            {% endif %}
+        </div>
